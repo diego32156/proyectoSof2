@@ -8,6 +8,10 @@ import { EmpleadosComponent } from './empleados/empleados.component';
 import { BancoComponent } from './banco/banco.component';
 import { CitaComponent } from './cita/cita.component';
 import { TipoServicioComponent } from './tipo-servicio/tipo-servicio.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import {  HttpClientModule } from '@angular/common/http';
+import { MiddleWareService } from './app.middleware.service';
 
 @NgModule({
   declarations: [
@@ -16,13 +20,16 @@ import { TipoServicioComponent } from './tipo-servicio/tipo-servicio.component';
     EmpleadosComponent,
     BancoComponent,
     CitaComponent,
-    TipoServicioComponent
+    TipoServicioComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [ ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
