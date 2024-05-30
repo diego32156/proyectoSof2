@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import {  HttpClientModule } from '@angular/common/http';
 import { MiddleWareService } from './app.middleware.service';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +29,7 @@ import { MiddleWareService } from './app.middleware.service';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+  
   ],
   providers: [ ],
   bootstrap: [AppComponent]

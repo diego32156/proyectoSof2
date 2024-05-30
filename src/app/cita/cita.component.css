@@ -1,0 +1,10 @@
+.calendario-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .calendario-container mwl-calendar-month-view {
+    width: 100%;
+    max-width: 900px;
+  }
