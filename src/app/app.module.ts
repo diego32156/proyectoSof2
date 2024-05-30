@@ -11,7 +11,6 @@ import { TipoServicioComponent } from './tipo-servicio/tipo-servicio.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import {  HttpClientModule } from '@angular/common/http';
-import { MiddleWareService } from './app.middleware.service';
 
 
 @NgModule({
@@ -29,7 +28,6 @@ import { MiddleWareService } from './app.middleware.service';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-  
   ],
   providers: [ ],
   bootstrap: [AppComponent]
