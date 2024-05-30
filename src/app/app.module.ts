@@ -11,8 +11,7 @@ import { TipoServicioComponent } from './tipo-servicio/tipo-servicio.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import {  HttpClientModule } from '@angular/common/http';
-import { MiddleWareService } from './app.middleware.service';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -29,7 +28,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    BrowserAnimationsModule,
+
   ],
   providers: [ ],
   bootstrap: [AppComponent]

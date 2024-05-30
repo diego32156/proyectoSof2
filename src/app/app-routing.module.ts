@@ -21,7 +21,7 @@ const routes: Routes = [
 
   },
   {
-    path: 'citas-Banco',
+    path: 'cita',
     component: CitaComponent
   },
   // {
